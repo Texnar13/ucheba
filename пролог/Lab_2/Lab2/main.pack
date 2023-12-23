@@ -1,0 +1,15 @@
+﻿#include @"main.ph"
+
+% privately used packages
+#include @"pfc\fileSystem\fileSystem.ph"
+#include @"pfc\application\Exe\exe.ph"
+#include @"pfc\console\console.ph"
+#include @"pfc\core.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"main.pro"
+

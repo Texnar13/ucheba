@@ -1,0 +1,9 @@
+После установки DOSBox необходимо изменить файл: DOSBox 0.74 Options
+(изменить раздел autoexec)
+[autoexec]
+# Lines in this section will be run at startup.
+# You can put your MOUNT lines here.
+mount a C:\prolog
+a:
+rk
+prolog

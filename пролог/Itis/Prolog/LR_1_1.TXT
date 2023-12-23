@@ -1,0 +1,79 @@
+DOMAINS
+	file_path = string
+	file_content = string
+	io_file = i_file(file_path)
+		or o_file(file_path)
+	header = string
+	article = header_content(header, content)
+
+DATABASE
+	io_files(io_file)
+
+PREDICATES
+	make_main_window
+	choose_file_str(file_content)
+	remove_extra_spaces(string, string)
+	choose_file(io_file)
+	show_file_str(file_path, file_content)
+	show(article)
+
+GOAL make_main_window
+	and choose_file_str(I_file_content)
+	and remove_extra_spaces(I_file_content, O_file_content)
+	and	choose_file_str(O_file_content)
+	and removewindow.
+
+CLAUSES
+	make_main_window
+		if makewindow(1, 112, 94, "Trim files (esc - exit)", 0, 0, 25, 80).
+
+	choose_file_str(I_file_content)
+		if free(I_file_content)
+		and choose_file(i_file(I_file_path))
+		and show_file_str(I_file_path, I_file_content)
+	choose_file_str(O_file_content)
+		if choose_file(o_file(O_file_path))
+		and show_file_str(O_file_path, O_file_content).
+
+	remove_extra_spaces(Source, Destination)
+		if %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		.
+
+	choose_file(i_file(File_path))
+		if %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		.
+	choose_file(o_file(File_path))
+		if %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		.
+
+	show_file_str(File_path, File_content)
+		if file_str(File_path, File_content)
+		and show(header_content(File_path, File_content)).
+
+	show(header_content(Header, Content))
+		if %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		.
+
+/*
+	start if makewindow(1, 112, 94, "View files (esc - exit)", 0, 0, 25, 80)
+		and analyze_disk.
+
+	analyze_disk if makewindow(2, 45, 47, "", 1, 1, 4, 78)
+		and dir("A:\\", "*", File_name)
+		and assert(file_name(File_name))
+		and removewindow
+		and fail.
+	analyze_disk if not(file_name(_))
+		and removewindow
+		and exit
+		and !.
+	analyze_disk if file_name(File_name)
+		and concat("File content ", File_name, File_header)
+		and makewindow(3, 73, 27, File_header, 1, 1, 23, 78)
+		and file_str(File_name, File_content)
+		and display(File_content)
+		and retractall(file_name(_))
+		and removewindow
+		and fail.
+analyze_disk if analyze_disk.
+*/

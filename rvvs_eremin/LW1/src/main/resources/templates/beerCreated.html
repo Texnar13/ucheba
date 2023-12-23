@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Пиво добавлено</title>
+</head>
+<body th:object="${createdBeer}">
+<h3>Пиво успешно добавлено!</h3>
+
+<p th:text="${'ID = ' + createdBeer.getId()}"/>
+<p th:text="${'Name = ' + createdBeer.getName()}"/>
+<p th:text="${'Country = ' + createdBeer.getCountry()}"/>
+<p th:text="${'Cost = ' + createdBeer.getCost()}"/>
+<p th:text="${'Advantages = ' + createdBeer.getAdvantages()}"/>
+<p th:text="${'Disadvantages = ' + createdBeer.getDisadvantages()}"/>
+
+<a href="/">Назад</a>
+</body>
+</html>

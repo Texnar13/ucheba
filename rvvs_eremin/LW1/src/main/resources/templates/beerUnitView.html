@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Beer</title>
+</head>
+<body>
+
+<a href="/">На главную</a>
+
+<h3>Обзор пива:</h3>
+
+
+<form action="/beerEdit" method="POST">
+
+    <label for="beerIDInput">ID:</label>
+    <input type="number" id="beerIDInput" name="beerID" th:value="${beerUnit.getId()}"/><br/>
+
+    <label for="beerNameInput">Название этого прекрасного напитка:</label><br/>
+    <input type="text" id="beerNameInput" name="beerName" th:value="${beerUnit.getName()}"/><br/>
+
+    <label for="countryInput">В какой же стране его сварили:</label><br/>
+    <input id="countryInput" type="text" name="beerCountry" th:value="${beerUnit.getCountry()}"/><br/>
+
+    <label for="moneyInput">Shut up and take my money (Всмысле сколько оно стоит):</label><br/>
+    <input id="moneyInput" type="number" name="beerCost" th:value="${beerUnit.getCost()}"/><br/>
+
+
+    <label for="advantagesInput">Кратко(нет) опишем все его достоинства:</label><br/>
+    <input id="advantagesInput" type="text" name="beerAdvantages" th:value="${beerUnit.getAdvantages()}"/><br/>
+
+    <label for="disAdvantagesInput">К сожалению у разного пива встречаются недостатки:</label><br/>
+    <input id="disAdvantagesInput" type="text" name="beerDisadvantages" th:value="${beerUnit.getDisadvantages()}"/><br/>
+
+
+    <button type="submit">Изменить</button>
+</form>
+
+
+<!--<form th:action="@{/beer/{id}(id=${beerUnit.getId()})}" method="DELETE">-->
+<form th:action="@{/beerDelete}" method="POST">
+    <input type="hidden" th:value="${beerUnit.getId()}" name="beerId" />
+    <button type="submit">Удалить</button>
+</form>
+
+</body>
+</html>

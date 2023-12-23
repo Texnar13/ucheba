@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="/">Назад</a>
+<br/>
+<br/>
+
+
+<h4>Постраничный просмотр</h4>
+<br/>
+<a th:href="@{/beer_list?page={pagenum}(pagenum=${beerList.getNumber()-1})}" th:text="Назад"/>
+<a th:href="@{/beer_list?page={pagenum}(pagenum=${beerList.getNumber()+1})}" th:text="Вперед"/>
+
+<table>
+    <thead>
+    <tr>
+        <th colspan="6">Список пива:</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>ID</td>
+        <td>Название</td>
+        <td>Страна</td>
+        <td>Стоимость</td>
+        <td>Преимущества</td>
+        <td>Недостатки</td>
+    </tr>
+    <div th:each="beerUnit: ${beerList}">
+        <tr>
+            <td th:text="${beerUnit.getId()}"/>
+            <td><a th:href="@{/beer/{id}(id=${beerUnit.getId()})}" th:text="${beerUnit.getName()}"/></td>
+            <td th:text="${beerUnit.getCountry()}"/>
+            <td th:text="${beerUnit.getCost()}"/>
+            <td th:text="${beerUnit.getAdvantages()}"/>
+            <td th:text="${beerUnit.getDisadvantages()}"/>
+        </tr>
+    </div>
+
+    </tbody>
+</table>
+
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "P1",
+            "request": "launch",
+            "mainClass": "P1",
+            "projectName": "Test_7a1bdbbd"
+        },
+        {
+            "type": "java",
+            "name": "P2",
+            "request": "launch",
+            "mainClass": "P2",
+            "projectName": "Test_7a1bdbbd"
+        },
+        {
+            "type": "java",
+            "name": "P3",
+            "request": "launch",
+            "mainClass": "P3",
+            "projectName": "Test_7a1bdbbd"
+        },
+        {
+            "type": "java",
+            "name": "P4",
+            "request": "launch",
+            "mainClass": "P4",
+            "projectName": "Test_7a1bdbbd"
+        },
+        {
+            "type": "java",
+            "name": "P4",
+            "request": "launch",
+            "mainClass": "P4",
+            "projectName": "Test_f79ef289"
+        },
+        {
+            "type": "java",
+            "name": "P3",
+            "request": "launch",
+            "mainClass": "P3",
+            "projectName": "Test_f79ef289"
+        },
+        {
+            "type": "java",
+            "name": "P1",
+            "request": "launch",
+            "mainClass": "P1",
+            "projectName": "Test_f79ef289"
+        },
+        {
+            "type": "java",
+            "name": "P2",
+            "request": "launch",
+            "mainClass": "P2",
+            "projectName": "Test_f79ef289"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Test_f79ef289"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Test_f79ef289"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Test_f79ef289"
+        }
+    ]
+}

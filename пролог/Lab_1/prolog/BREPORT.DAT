@@ -1,0 +1,5 @@
+yesdata("","rash")
+yesdata("","runny_nose")
+yesdata("","conjunctivitis")
+yesdata("","cough")
+yesdata("","fever")

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+
+
+<head>
+    <title>Best beer application</title>
+</head>
+
+
+<body>
+<h1>Неоффициальный сайт партии любителей пива</h1>
+<h3>Марчук Иван ИУ6-11М</h3>
+<a href="/all_beer">Список сразу всего пива</a>
+<br/>
+<a href="/beer_list">Постраничный список</a>
+<br/>
+<br/>
+
+<h3>Добавление пива</h3>
+<form action="/beer" method="POST">
+    <label for="beerNameInput">Название этого прекрасного напитка:</label><br/>
+    <input type="text" id="beerNameInput" name="beerName"/><br/>
+
+    <label for="countryInput">В какой же стране его сварили:</label><br/>
+    <input id="countryInput" type="text" name="beerCountry"/><br/>
+
+    <label for="moneyInput">Shut up and take my money (Всмысле сколько оно стоит):</label><br/>
+    <input id="moneyInput" type="number" name="beerCost"/><br/>
+
+    <label for="advantagesInput">Кратко(нет) опишем все его достоинства:</label><br/>
+    <textarea id="advantagesInput" rows="5" cols="25" name="beerAdvantages"></textarea><br/>
+
+    <label for="disadvantagesInput">К сожалению у разного пива встречаются недостатки:</label><br/>
+    <textarea id="disadvantagesInput" rows="5" cols="25" name="beerDisadvantages"></textarea><br/>
+
+    <button type="submit">Добавить</button>
+</form>
+
+</body>
+
+
+</html>

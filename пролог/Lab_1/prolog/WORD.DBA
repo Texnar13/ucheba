@@ -1,0 +1,7 @@
+file(1,"test1.txt")
+file(2,"test2.txt")
+file(3,"test3.txt")
+file(4,"test4.txt")
+word("one")
+word("two")
+word("three")
