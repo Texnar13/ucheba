@@ -1,0 +1,113 @@
+[Project]
+Assembler=masm
+Type=Console App
+Description=myapp2
+Backup=$P\Bak\
+Group=1
+GroupExpand=1
+[Files]
+1=myapp2.Asm
+2=myapp2.Inc
+[MakeFiles]
+0=myapp2.rap
+1=myapp2.rc
+2=myapp2.asm
+3=myapp2.obj
+4=myapp2.res
+5=myapp2.exe
+6=myapp2.def
+7=myapp2.dll
+8=myapp2.txt
+9=myapp2.lib
+10=myapp2.mak
+11=myapp2.hla
+12=myapp2.com
+13=myapp2.ocx
+14=myapp2.idl
+15=myapp2.tlb
+16=myapp2.sys
+[MakeDef]
+MenuMake=0,1,1,1,1,1,1,1,0,0
+;x=FileToDelete/CheckExistsOnExit,
+;(O)utput/(C)onsole/0,Command,
+;MakeFile1[,MakeFile2[,MakeFile3...]]
+1=4,O,$B\RC.EXE /v,1
+2=3,O,$B\ML.EXE /c /coff /Cp /nologo /I"$I",2
+3=5,O,$B\LINK.EXE /SUBSYSTEM:CONSOLE /RELEASE /VERSION:4.0 /LIBPATH:"$L" /OUT:"$5",3
+4=0,0,,5
+5=rsrc.obj,O,$B\CVTRES.EXE,rsrc.res
+6=*.obj,O,$B\ML.EXE /c /coff /Cp /nologo /I"$I",*.asm
+7=0,0,"$E\OllyDbg\OllyDbg.exe",5
+11=
+12=3,O,$B\ML.EXE /c /coff /Cp /Zi /nologo /I"$I",2
+13=5,O,$B\LINK.EXE /SUBSYSTEM:CONSOLE /DEBUG /VERSION:4.0 /LIBPATH:"$L" /OUT:"$5",3
+14=0,0,,5
+15=
+16=*.obj,O,$B\ML.EXE /c /coff /Cp /nologo /I"$I",*.asm
+17=0,0,"$E\OllyDbg\OllyDbg.exe",5
+Menu=0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0
+[AutoLoad]
+1=1
+[Group]
+Group=Added files,Assembly,Resources,Misc,Modules
+1=2
+2=2
+[VersionControl]
+Settings=1246
+Milestones=129
+MilestoneEvery=10
+MilestoneEveryCurrent=0
+MilestoneOnBuild=0.0.0.0
+MilestoneOnTime=2
+MilestoneOnDate=0
+MilestoneOnDateWhen=1
+MilestoneOnDateStatus=0
+MilestoneOnDateDate=16
+MilestoneOnDateTimeYear=2021
+MilestoneOnDateTimeMonth=4
+MilestoneOnDateTimeDate=27
+MilestoneOnDateTimeHour=21
+MilestoneOnDateTimeMin=21
+MilestoneOnDateTimeSec=46
+MilestoneOnDateTimeStatus=0
+BackupLocation=C:\RADASM\Masm\Projects\VCBackups\
+CompressionLevel=0
+DefaultComment=Project $N, $Z, Backup Created On $D At $T.
+ExcludeExt1=\
+ExcludeExt2=\
+ExcludeExt3=\
+ExcludeExt4=\
+FileVerLength=4
+FileVer2Range=0
+FileVer3Range=0
+FileVer4Range=0
+ProductVerLength=4
+ProductVer2Range=0
+ProductVer3Range=0
+ProductVer4Range=0
+[Colref]
+0=00FFFFFF
+1=00FFFFFF
+2=00FFFFFF
+3=00FFFFFF
+4=00FFFFFF
+5=00FFFFFF
+6=00FFFFFF
+7=00FFFFFF
+[Collapse]
+1=
+[Size]
+1=0,0,0,0,438
+[BookMark]
+0=
+1=
+2=
+3=
+4=
+5=
+6=
+7=
+8=
+9=
+[BreakPoint]
+0=
