@@ -1,0 +1,11 @@
+C:\Users\Ivan\Desktop\c_labs\WindowsFormsLab12\bin\Debug\WindowsFormsLab12.exe.config
+C:\Users\Ivan\Desktop\c_labs\WindowsFormsLab12\bin\Debug\WindowsFormsLab12.exe
+C:\Users\Ivan\Desktop\c_labs\WindowsFormsLab12\bin\Debug\WindowsFormsLab12.pdb
+C:\Users\Ivan\Desktop\c_labs\WindowsFormsLab12\obj\Debug\WindowsFormsLab12.csproj.AssemblyReference.cache
+C:\Users\Ivan\Desktop\c_labs\WindowsFormsLab12\obj\Debug\WindowsFormsLab12.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ivan\Desktop\c_labs\WindowsFormsLab12\obj\Debug\WindowsFormsLab12.Form1.resources
+C:\Users\Ivan\Desktop\c_labs\WindowsFormsLab12\obj\Debug\WindowsFormsLab12.Properties.Resources.resources
+C:\Users\Ivan\Desktop\c_labs\WindowsFormsLab12\obj\Debug\WindowsFormsLab12.csproj.GenerateResource.cache
+C:\Users\Ivan\Desktop\c_labs\WindowsFormsLab12\obj\Debug\WindowsFormsLab12.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\c_labs\WindowsFormsLab12\obj\Debug\WindowsFormsLab12.exe
+C:\Users\Ivan\Desktop\c_labs\WindowsFormsLab12\obj\Debug\WindowsFormsLab12.pdb

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>AJAX calc test123</title>
+    <script>
+        number_url = location.protocol + "//" + location.host + "/res.json"
+        function send_query() {
+            var my_JSON_object = {};
+            var req = new XMLHttpRequest();
+            req.responseType = 'json';
+            req.open('GET', "res.json?value=" + document.forms.number_form.arr.value, true);
+            req.onreadystatechange = function () {
+                var done = 4, ok = 200;
+                if (req.readyState == done && req.status == ok) {
+                    show_result(req.response.value);
+                }
+            };
+            req.send(null);
+            return false;
+        }
+        function show_result(data) {
+            var result = document.getElementById("result");
+            result.innerHTML = "<hr/>Result is: " + data + "<hr/>";
+        }
+    </script>
+</head>
+<body>
+    <form name="number_form" method="get">
+        <label for="numbers">Search perfect number:</label>
+        <input id="arr" name="arr" type="text" />  <br />
+        <input name="commit" type="submit" onclick="return send_query();" />
+    </form>
+    <div id="result"></div>
+</body>
+</html>
+
+

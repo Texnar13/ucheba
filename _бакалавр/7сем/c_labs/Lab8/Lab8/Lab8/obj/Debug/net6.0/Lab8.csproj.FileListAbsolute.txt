@@ -1,0 +1,45 @@
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab8\Lab8\Lab8\bin\Debug\net6.0\Lab8.exe
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab8\Lab8\Lab8\bin\Debug\net6.0\Lab8.deps.json
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab8\Lab8\Lab8\bin\Debug\net6.0\Lab8.runtimeconfig.json
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab8\Lab8\Lab8\bin\Debug\net6.0\Lab8.dll
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab8\Lab8\Lab8\bin\Debug\net6.0\Lab8.pdb
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.csproj.AssemblyReference.cache
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.AssemblyInfoInputs.cache
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.AssemblyInfo.cs
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.csproj.CoreCompileInputs.cache
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.dll
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab8\Lab8\Lab8\obj\Debug\net6.0\refint\Lab8.dll
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.pdb
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.genruntimeconfig.cache
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab8\Lab8\Lab8\obj\Debug\net6.0\ref\Lab8.dll
+C:\Users\Ivan\Desktop\labs\Lab8\Lab8\Lab8\bin\Debug\net6.0\Lab8.exe
+C:\Users\Ivan\Desktop\labs\Lab8\Lab8\Lab8\bin\Debug\net6.0\Lab8.deps.json
+C:\Users\Ivan\Desktop\labs\Lab8\Lab8\Lab8\bin\Debug\net6.0\Lab8.runtimeconfig.json
+C:\Users\Ivan\Desktop\labs\Lab8\Lab8\Lab8\bin\Debug\net6.0\Lab8.dll
+C:\Users\Ivan\Desktop\labs\Lab8\Lab8\Lab8\bin\Debug\net6.0\Lab8.pdb
+C:\Users\Ivan\Desktop\labs\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.csproj.AssemblyReference.cache
+C:\Users\Ivan\Desktop\labs\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\Desktop\labs\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.AssemblyInfoInputs.cache
+C:\Users\Ivan\Desktop\labs\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.AssemblyInfo.cs
+C:\Users\Ivan\Desktop\labs\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\labs\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.dll
+C:\Users\Ivan\Desktop\labs\Lab8\Lab8\Lab8\obj\Debug\net6.0\refint\Lab8.dll
+C:\Users\Ivan\Desktop\labs\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.pdb
+C:\Users\Ivan\Desktop\labs\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.genruntimeconfig.cache
+C:\Users\Ivan\Desktop\labs\Lab8\Lab8\Lab8\obj\Debug\net6.0\ref\Lab8.dll
+C:\Users\Ivan\Desktop\c_labs\Lab8\Lab8\Lab8\bin\Debug\net6.0\Lab8.exe
+C:\Users\Ivan\Desktop\c_labs\Lab8\Lab8\Lab8\bin\Debug\net6.0\Lab8.deps.json
+C:\Users\Ivan\Desktop\c_labs\Lab8\Lab8\Lab8\bin\Debug\net6.0\Lab8.runtimeconfig.json
+C:\Users\Ivan\Desktop\c_labs\Lab8\Lab8\Lab8\bin\Debug\net6.0\Lab8.dll
+C:\Users\Ivan\Desktop\c_labs\Lab8\Lab8\Lab8\bin\Debug\net6.0\Lab8.pdb
+C:\Users\Ivan\Desktop\c_labs\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.csproj.AssemblyReference.cache
+C:\Users\Ivan\Desktop\c_labs\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\Desktop\c_labs\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.AssemblyInfoInputs.cache
+C:\Users\Ivan\Desktop\c_labs\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.AssemblyInfo.cs
+C:\Users\Ivan\Desktop\c_labs\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\c_labs\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.dll
+C:\Users\Ivan\Desktop\c_labs\Lab8\Lab8\Lab8\obj\Debug\net6.0\refint\Lab8.dll
+C:\Users\Ivan\Desktop\c_labs\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.pdb
+C:\Users\Ivan\Desktop\c_labs\Lab8\Lab8\Lab8\obj\Debug\net6.0\Lab8.genruntimeconfig.cache
+C:\Users\Ivan\Desktop\c_labs\Lab8\Lab8\Lab8\obj\Debug\net6.0\ref\Lab8.dll

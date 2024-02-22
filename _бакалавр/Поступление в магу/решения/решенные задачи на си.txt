@@ -1,0 +1,166 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+
+
+
+*******************************************************************************/
+
+#include <stdio.h>
+#include <stdbool.h>
+
+int main()
+{
+    
+    bool bbb;
+    int n, row, col, tempSum, tempCount;
+    printf("Enter N: ");
+    scanf("%d", &n);
+    
+    int a[n][n];
+    printf("enter matrix:\n");
+    for(row = 0; row < n; row++){
+        for(col = 0; col < n; col++){
+            scanf("%d", &a[row][col]);
+        }
+        printf("Next row:\n");
+    }
+    
+    printf("entered: \n");
+    for(row = 0; row < n; row++){
+        for(col = 0; col < n; col++){
+            printf("%d, ", a[row][col]);
+        }
+        printf("\n");
+    }
+    
+    // raschet 
+    for(col = 0; col < n; col++){
+        tempSum = 0;
+        tempCount = 0;
+        for(row = 0; row < n && a[row][col] != 0; row++){
+            tempSum += a[row][col];
+            tempCount++;
+        }
+        if(tempCount != 0){tempSum /= tempCount;}
+        a[n - 1 - col][col] = tempSum;
+    }
+    printf("answer:\n");
+    for(row = 0; row < n; row++){
+        for(col = 0; col < n; col++){
+            printf("%d, ", a[row][col]);
+        }
+        printf("\n");
+    }
+    
+    
+    /*
+    int n, m, row, col;
+    printf("Enter N: ");
+    scanf("%d", &n);
+    printf("Enter M: ");
+    scanf("%d", &m);
+    double a[n][m];
+    double c[m];
+    
+    printf("enter matrix:\n");
+    for(row = 0; row < n; row++){
+        for(col = 0; col < m; col++){
+            scanf("%lf", &a[row][col]);
+        }
+        printf("\n");
+    }
+    
+    // расчет среднего ар.
+    for(col = 0; col < m; col++){
+        c[col] = 0;
+        for(row = 0; row < n; row++){
+            c[col] += a[row][col];
+        }
+        c[col] = c[col]/n;
+    }
+    
+    // вывод
+    printf("entered matrix:\n");
+    for(row = 0; row < n; row++){
+        for(col = 0; col < m; col++){
+            printf("%lf, ", a[row][col]);
+        }
+        printf("\n");
+    }
+    
+    printf("\nanswer:\n");
+    for(col = 0; col < m; col++){
+        printf("%lf, ", c[col]);
+    }
+    */
+    
+    
+    
+    
+    
+    
+    
+    /*
+    printf("Enter N\n");
+    int n;
+    scanf("%d", &n);
+    printf("Enter M\n");
+    int m;
+    scanf("%d", &m);
+    printf("Enter K\n");
+    int k;
+    scanf("%d", &k);
+    double a[n][m];
+    printf("Enter the matrix\n");
+     for(int i = 0; i < n; i++){
+        for(int j = 0; j < m; j++){
+            scanf("%lf", &a[i][j]);
+        }
+        printf("\n");
+    }
+    
+    
+    int step = k - 1;
+    int flag = 0;
+    int sum = 0;
+    for(int i = 0; i < n - step; i++){
+        for(int j = 0; j < m - step; j++){
+            
+            
+            for(int kn = 0; kn < k; kn++){
+                for(int km = 0; km < k; km++){
+                    if (a[i + kn][j + km] == 0){
+                        flag = 1;
+                    } else {
+                        flag = 0;
+                        break;
+                    }
+                }
+                if (flag == 0) {
+                    break;
+                }
+            }
+            if (flag == 1){
+                sum+=1;
+            }
+            
+            printf("\n");
+        }
+    }
+    
+    
+    for(int i = 0; i < n; i++){
+        for(int j = 0; j < m; j++){
+            printf("%lf, ", a[i][j]);
+        }
+        printf("\n");
+    }
+    printf("Sum = %d", sum);
+    
+    */
+    return 0;
+}

@@ -1,0 +1,45 @@
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab7\Lab7\Lab7\bin\Debug\net6.0\Lab7.exe
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab7\Lab7\Lab7\bin\Debug\net6.0\Lab7.deps.json
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab7\Lab7\Lab7\bin\Debug\net6.0\Lab7.runtimeconfig.json
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab7\Lab7\Lab7\bin\Debug\net6.0\Lab7.dll
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab7\Lab7\Lab7\bin\Debug\net6.0\Lab7.pdb
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.csproj.AssemblyReference.cache
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.AssemblyInfoInputs.cache
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.AssemblyInfo.cs
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.csproj.CoreCompileInputs.cache
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.dll
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab7\Lab7\Lab7\obj\Debug\net6.0\refint\Lab7.dll
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.pdb
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.genruntimeconfig.cache
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab7\Lab7\Lab7\obj\Debug\net6.0\ref\Lab7.dll
+C:\Users\Ivan\Desktop\labs\Lab7\Lab7\Lab7\bin\Debug\net6.0\Lab7.exe
+C:\Users\Ivan\Desktop\labs\Lab7\Lab7\Lab7\bin\Debug\net6.0\Lab7.deps.json
+C:\Users\Ivan\Desktop\labs\Lab7\Lab7\Lab7\bin\Debug\net6.0\Lab7.runtimeconfig.json
+C:\Users\Ivan\Desktop\labs\Lab7\Lab7\Lab7\bin\Debug\net6.0\Lab7.dll
+C:\Users\Ivan\Desktop\labs\Lab7\Lab7\Lab7\bin\Debug\net6.0\Lab7.pdb
+C:\Users\Ivan\Desktop\labs\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.csproj.AssemblyReference.cache
+C:\Users\Ivan\Desktop\labs\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\Desktop\labs\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.AssemblyInfoInputs.cache
+C:\Users\Ivan\Desktop\labs\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.AssemblyInfo.cs
+C:\Users\Ivan\Desktop\labs\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\labs\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.dll
+C:\Users\Ivan\Desktop\labs\Lab7\Lab7\Lab7\obj\Debug\net6.0\refint\Lab7.dll
+C:\Users\Ivan\Desktop\labs\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.pdb
+C:\Users\Ivan\Desktop\labs\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.genruntimeconfig.cache
+C:\Users\Ivan\Desktop\labs\Lab7\Lab7\Lab7\obj\Debug\net6.0\ref\Lab7.dll
+C:\Users\Ivan\Desktop\c_labs\Lab7\Lab7\Lab7\bin\Debug\net6.0\Lab7.exe
+C:\Users\Ivan\Desktop\c_labs\Lab7\Lab7\Lab7\bin\Debug\net6.0\Lab7.deps.json
+C:\Users\Ivan\Desktop\c_labs\Lab7\Lab7\Lab7\bin\Debug\net6.0\Lab7.runtimeconfig.json
+C:\Users\Ivan\Desktop\c_labs\Lab7\Lab7\Lab7\bin\Debug\net6.0\Lab7.dll
+C:\Users\Ivan\Desktop\c_labs\Lab7\Lab7\Lab7\bin\Debug\net6.0\Lab7.pdb
+C:\Users\Ivan\Desktop\c_labs\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.csproj.AssemblyReference.cache
+C:\Users\Ivan\Desktop\c_labs\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\Desktop\c_labs\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.AssemblyInfoInputs.cache
+C:\Users\Ivan\Desktop\c_labs\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.AssemblyInfo.cs
+C:\Users\Ivan\Desktop\c_labs\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\c_labs\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.dll
+C:\Users\Ivan\Desktop\c_labs\Lab7\Lab7\Lab7\obj\Debug\net6.0\refint\Lab7.dll
+C:\Users\Ivan\Desktop\c_labs\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.pdb
+C:\Users\Ivan\Desktop\c_labs\Lab7\Lab7\Lab7\obj\Debug\net6.0\Lab7.genruntimeconfig.cache
+C:\Users\Ivan\Desktop\c_labs\Lab7\Lab7\Lab7\obj\Debug\net6.0\ref\Lab7.dll

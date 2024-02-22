@@ -1,0 +1,8 @@
+C:\Users\Ivan\Desktop\c_labs\LabApp2\bin\Debug\LabApp2.exe.config
+C:\Users\Ivan\Desktop\c_labs\LabApp2\bin\Debug\LabApp2.exe
+C:\Users\Ivan\Desktop\c_labs\LabApp2\bin\Debug\LabApp2.pdb
+C:\Users\Ivan\Desktop\c_labs\LabApp2\obj\Debug\LabApp2.csproj.AssemblyReference.cache
+C:\Users\Ivan\Desktop\c_labs\LabApp2\obj\Debug\LabApp2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ivan\Desktop\c_labs\LabApp2\obj\Debug\LabApp2.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\c_labs\LabApp2\obj\Debug\LabApp2.exe
+C:\Users\Ivan\Desktop\c_labs\LabApp2\obj\Debug\LabApp2.pdb

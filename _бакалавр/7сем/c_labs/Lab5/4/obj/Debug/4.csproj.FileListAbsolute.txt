@@ -1,0 +1,32 @@
+C:\Users\oliei\Desktop\3 семестр\C#\4\4\bin\Debug\4.exe.config
+C:\Users\oliei\Desktop\3 семестр\C#\4\4\bin\Debug\4.exe
+C:\Users\oliei\Desktop\3 семестр\C#\4\4\bin\Debug\4.pdb
+C:\Users\oliei\Desktop\3 семестр\C#\4\4\obj\Debug\4.csprojAssemblyReference.cache
+C:\Users\oliei\Desktop\3 семестр\C#\4\4\obj\Debug\_4.Form1.resources
+C:\Users\oliei\Desktop\3 семестр\C#\4\4\obj\Debug\_4.Properties.Resources.resources
+C:\Users\oliei\Desktop\3 семестр\C#\4\4\obj\Debug\4.csproj.GenerateResource.cache
+C:\Users\oliei\Desktop\3 семестр\C#\4\4\obj\Debug\4.csproj.CoreCompileInputs.cache
+C:\Users\oliei\Desktop\3 семестр\C#\4\4\obj\Debug\4.exe
+C:\Users\oliei\Desktop\3 семестр\C#\4\4\obj\Debug\4.pdb
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab5\4\bin\Debug\4.exe.config
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab5\4\bin\Debug\4.exe
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab5\4\bin\Debug\4.pdb
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab5\4\obj\Debug\4.csproj.AssemblyReference.cache
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab5\4\obj\Debug\4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab5\4\obj\Debug\_4.Form1.resources
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab5\4\obj\Debug\_4.Properties.Resources.resources
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab5\4\obj\Debug\4.csproj.GenerateResource.cache
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab5\4\obj\Debug\4.csproj.CoreCompileInputs.cache
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab5\4\obj\Debug\4.exe
+C:\Users\Timerlan\Documents\My Documents\МГТУ\4 курс\Лабы CSHARP\Lab5\4\obj\Debug\4.pdb
+C:\Users\Ivan\Desktop\c_labs\Lab5\4\bin\Debug\4.exe.config
+C:\Users\Ivan\Desktop\c_labs\Lab5\4\bin\Debug\4.exe
+C:\Users\Ivan\Desktop\c_labs\Lab5\4\bin\Debug\4.pdb
+C:\Users\Ivan\Desktop\c_labs\Lab5\4\obj\Debug\4.csproj.AssemblyReference.cache
+C:\Users\Ivan\Desktop\c_labs\Lab5\4\obj\Debug\4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ivan\Desktop\c_labs\Lab5\4\obj\Debug\_4.Form1.resources
+C:\Users\Ivan\Desktop\c_labs\Lab5\4\obj\Debug\_4.Properties.Resources.resources
+C:\Users\Ivan\Desktop\c_labs\Lab5\4\obj\Debug\4.csproj.GenerateResource.cache
+C:\Users\Ivan\Desktop\c_labs\Lab5\4\obj\Debug\4.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\c_labs\Lab5\4\obj\Debug\4.exe
+C:\Users\Ivan\Desktop\c_labs\Lab5\4\obj\Debug\4.pdb

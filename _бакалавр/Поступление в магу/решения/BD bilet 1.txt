@@ -1,0 +1,60 @@
+
+Из таблицы ORDERS выбрать заказы со сроком даты заказа
+(OrdersDate) более ранней, чем 31 мая 2014 года. Список отсортировать по
+номеру заказа.
+
+SELECT * FROM ORDERS
+WHERE OrdersDate < '2014-06-31'
+ORDER BY ID;
+
+
+
+  
+
+begin transaction;
+
+CREATE TABLE CUSTOMER (ID integer PRIMARY KEY, CompanyNane text, LastName text, FlrstName text, Address text, City text, Phone text, Fax text);
+CREATE TABLE ORDERS (ID Integer, IDcustomer integer, OrdersDate date, ShipDate date, PaidDate date, Status text);
+CREATE TABLE ITEM (ID Integer, TDorders integer, IDstock integer, Quantity integer, Total double);
+CREATE TABLE STOCK (ID integer, UnItPrice double, OnHand text, Reoder integer, Description text);
+
+
+INSERT INTO CUSTOMER VALUES(1, "Company1", "Lastlanet", "FinstNanel", "Addressi", "Fonyrow", "Phonel", "Faxt");
+INSERT INTO CUSTOMER VALUES(2, "Company2", "Lastlanet", "FinstNanel", "Addressi", "Fonyrow", "Phonel", "Faxt");
+INSERT INTO CUSTOMER VALUES(3, "Company3", "Lastlanet", "FinstNanel", "Addressi", "Fonyrow", "Phonel", "Faxt");
+INSERT INTO CUSTOMER VALUES(4, "Company4", "Lastlanet", "FinstNanel", "Addressi", "Fonyrow", "Phonel", "Faxt");
+INSERT INTO CUSTOMER VALUES(5, "Company5", "Lastlanet", "FinstNanel", "Addressi", "Fonyrow", "Phonel", "Faxt");
+INSERT INTO CUSTOMER VALUES(6, "Company6", "Lastlanet", "FinstNanel", "Addressi", "Fonyrow", "Phonel", "Faxt");
+INSERT INTO CUSTOMER VALUES(7, "Company7", "Lastlanet", "FinstNanel", "Addressi", "Fonyrow", "Phonel", "Faxt");
+INSERT INTO CUSTOMER VALUES(8, "Company7", "LastName8", "FinstName8", "Addressi", "Fonyrow", "Phonel", "Faxt");
+INSERT INTO CUSTOMER VALUES(9, "Company7", "LastName9", "FinstName9", "Addressi", "Fonyrow", "Phonel", "Faxt");
+INSERT INTO CUSTOMER VALUES(10, "Company7", "LastName55", "FinstName44", "Addressi", "Fonyrow", "Phonel", "Faxt");
+INSERT INTO CUSTOMER VALUES(11, "Company7", "LastName1", "FinstName2", "Addressi", "Fonyrow", "Phonel", "Faxt");
+
+INSERT INTO ORDERS VALUES(1, 4, "2016-01-31", "2015-05-15", "2014-05-05", "Наличными");
+INSERT INTO ORDERS VALUES(2, 2, "2017-02-31", "2015-05-15", "2014-05-05", "Наличными");
+INSERT INTO ORDERS VALUES(3, 5, "2011-03-31", "2015-05-15", "2014-05-05", "Наличными");
+INSERT INTO ORDERS VALUES(4, 1, "2012-04-31", "2015-05-15", "2014-05-05", "Наличными");
+INSERT INTO ORDERS VALUES(5, 7, "2013-05-31", "2015-05-15", "2014-05-05", "Наличными");
+INSERT INTO ORDERS VALUES(6, 3, "2014-06-31", "2015-05-15", "2014-05-05", "Наличными");
+INSERT INTO ORDERS VALUES(7, 6, "2015-07-31", "2015-05-15", "2014-05-05", "Наличными");
+
+
+INSERT INTO ITEM VALUES(1, 4, 2, 10, 3324.52);
+INSERT INTO ITEM VALUES(2, 2, 3, 15, 7436.21);
+INSERT INTO ITEM VALUES(3, 6, 5, 20, 52342.42);
+INSERT INTO ITEM VALUES(4, 3, 1, 5,  44653.75);
+INSERT INTO ITEM VALUES(5, 7, 7, 7,  1234.43);
+INSERT INTO ITEM VALUES(6, 1, 6, 11, 435346.87);
+INSERT INTO ITEM VALUES(7, 5, 4, 22, 246546.16);
+
+
+INSERT INTO STOCK VALUES(1, 44356.42, "В наличии",   3, "Описание1");
+INSERT INTO STOCK VALUES(2, 44356.42, "Отсутствует", 1, "Описание2");
+INSERT INTO STOCK VALUES(3, 44356.42, "В наличии",   7, "Описание3");
+INSERT INTO STOCK VALUES(4, 44356.42, "Отсутствует", 3, "Описание4");
+INSERT INTO STOCK VALUES(5, 44356.42, "В наличии",   1, "Описани5");
+INSERT INTO STOCK VALUES(6, 44356.42, "Отсутствует", 5, "Описание6");
+INSERT INTO STOCK VALUES(7, 44356.42, "В наличии",   6, "Описание7");
+
+COMMIT;

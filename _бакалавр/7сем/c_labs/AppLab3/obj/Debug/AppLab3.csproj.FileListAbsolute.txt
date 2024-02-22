@@ -1,0 +1,8 @@
+C:\Users\Ivan\Desktop\c_labs\AppLab3\obj\Debug\AppLab3.csproj.AssemblyReference.cache
+C:\Users\Ivan\Desktop\c_labs\AppLab3\obj\Debug\AppLab3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ivan\Desktop\c_labs\AppLab3\obj\Debug\AppLab3.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\c_labs\AppLab3\bin\Debug\AppLab3.exe.config
+C:\Users\Ivan\Desktop\c_labs\AppLab3\bin\Debug\AppLab3.exe
+C:\Users\Ivan\Desktop\c_labs\AppLab3\bin\Debug\AppLab3.pdb
+C:\Users\Ivan\Desktop\c_labs\AppLab3\obj\Debug\AppLab3.exe
+C:\Users\Ivan\Desktop\c_labs\AppLab3\obj\Debug\AppLab3.pdb
