@@ -1,0 +1,24 @@
+xst -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -intstyle ise -ifn "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/main.xst" -ofn "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/main.syr"
+ngdbuild -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-5 "main.ngc" main.ngd
+xst -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -intstyle ise -ifn "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/main.xst" -ofn "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/main.syr"
+ngdbuild -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-5 "main.ngc" main.ngd
+map -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -intstyle ise -p xc3s500e-fg320-5 -cm area -pr off -k 4 -c 100 -o main_map.ncd main.ngd main.pcf
+par -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -w -intstyle ise -ol std -t 1 main_map.ncd main.ncd main.pcf
+trce -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -intstyle ise -e 3 -s 5 -xml main main.ncd -o main.twr main.pcf
+xst -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -intstyle ise -ifn "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/main.xst" -ofn "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/main.syr"
+ngdbuild -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-5 "main.ngc" main.ngd
+map -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -intstyle ise -p xc3s500e-fg320-5 -cm area -pr off -k 4 -c 100 -o main_map.ncd main.ngd main.pcf
+par -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -w -intstyle ise -ol std -t 1 main_map.ncd main.ncd main.pcf
+trce -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -intstyle ise -e 3 -s 5 -xml main main.ncd -o main.twr main.pcf
+ngdbuild -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-5 "main.ngc" main.ngd
+map -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -intstyle ise -p xc3s500e-fg320-5 -cm area -pr off -k 4 -c 100 -o main_map.ncd main.ngd main.pcf
+trce -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -intstyle ise -v 3 -s 5 -xml main_preroute main_map.ncd -o main_preroute.twr main.pcf -ucf main_xc3s200.ucf
+par -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -w -intstyle ise -ol std -t 1 main_map.ncd main.ncd main.pcf
+trce -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -intstyle ise -e 3 -s 5 -xml main main.ncd -o main.twr main.pcf -ucf main_xc3s200.ucf
+bitgen -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -intstyle ise -f main.ut main.ncd
+xst -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -intstyle ise -ifn "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/main.xst" -ofn "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/main.syr"
+ngdbuild -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-5 "main.ngc" main.ngd
+map -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -intstyle ise -p xc3s500e-fg320-5 -cm area -pr off -k 4 -c 100 -o main_map.ncd main.ngd main.pcf
+par -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -w -intstyle ise -ol std -t 1 main_map.ncd main.ncd main.pcf
+trce -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -intstyle ise -e 3 -s 5 -xml main main.ncd -o main.twr main.pcf -ucf main_xc3s200.ucf
+bitgen -ise "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise" -intstyle ise -f main.ut main.ncd

@@ -1,0 +1,8 @@
+EN seven_segment NULL C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/led_decoder.vhd sub00/vhpl04 1650459683
+AR main behavioral C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/main.vhd sub00/vhpl07 1650459688
+EN main NULL C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/main.vhd sub00/vhpl06 1650459687
+AR lab2_example behavioral C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.vhd sub00/vhpl01 1650459686
+EN seven_segment_driver NULL C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/segment_driver.vhd sub00/vhpl02 1650459681
+AR seven_segment_driver struct C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/segment_driver.vhd sub00/vhpl03 1650459682
+EN lab2_example NULL C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.vhd sub00/vhpl00 1650459685
+AR seven_segment behavioral C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/led_decoder.vhd sub00/vhpl05 1650459684

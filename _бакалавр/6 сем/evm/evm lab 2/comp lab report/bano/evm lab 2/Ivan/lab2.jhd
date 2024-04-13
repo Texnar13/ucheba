@@ -1,0 +1,3 @@
+MODULE lab2
+SUBMODULE lab2_example
+INSTANCE UUT

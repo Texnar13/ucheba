@@ -1,0 +1,1 @@
+xst -ise "C:/Users/user/Desktop/evm lab 2/Ivan/laba2.ise" -intstyle ise -ifn "C:/Users/user/Desktop/evm lab 2/Ivan/lab2_example.xst" -ofn "C:/Users/user/Desktop/evm lab 2/Ivan/lab2_example.syr"

@@ -1,0 +1,31 @@
+V3 16
+FL "C:/Users/user/Desktop/evm lab 2/Ivan/laba2.vhd" 2022/03/23.15:58:34 K.31
+FL C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.vhd 2022/04/20.16:01:07 K.31
+EN work/lab2_example 1650459685 \
+      FL C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/lab2_example/behavioral 1650459686 \
+      FL C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.vhd EN work/lab2_example 1650459685
+FL C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/led_decoder.vhd 2022/04/20.14:46:56 K.31
+EN work/seven_segment 1650459683 \
+      FL C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/led_decoder.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/seven_segment/Behavioral 1650459684 \
+      FL C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/led_decoder.vhd \
+      EN work/seven_segment 1650459683
+FL C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/main.vhd 2022/04/20.15:26:26 K.31
+EN work/main 1650459687 FL C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/main.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/main/Behavioral 1650459688 \
+      FL C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/main.vhd EN work/main 1650459687 \
+      CP Seven_Segment_Driver CP seven_segment CP lab2_example
+FL C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/segment_driver.vhd 2022/04/20.14:48:22 K.31
+EN work/Seven_Segment_Driver 1650459681 \
+      FL C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/segment_driver.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566
+AR work/Seven_Segment_Driver/Struct 1650459682 \
+      FL C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/segment_driver.vhd \
+      EN work/Seven_Segment_Driver 1650459681

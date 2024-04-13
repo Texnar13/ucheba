@@ -1,0 +1,32 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8515</DEVICE>
+ <WORKING_DIR>C:\Users\Ivan\Desktop\test_prjct_rk</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Ivan\Desktop\test_prjct_rk\test_prjct_rk.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8515def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Ivan\Desktop\test_prjct_rk\test_prjct_rk.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\Ivan\Desktop\test_prjct_rk\test_prjct_rk.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\Ivan\Desktop\test_prjct_rk\test_prjct_rk.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init><FILE>C:\Users\Ivan\Desktop\test_prjct_rk\test_prjct_rk.asm</FILE><LINE>34</LINE></init>
+  <UPINIT><FILE>C:\Users\Ivan\Desktop\test_prjct_rk\test_prjct_rk.asm</FILE><LINE>46</LINE></UPINIT>
+  <UPSTEP><FILE>C:\Users\Ivan\Desktop\test_prjct_rk\test_prjct_rk.asm</FILE><LINE>48</LINE></UPSTEP>
+  <DELAYL><FILE>C:\Users\Ivan\Desktop\test_prjct_rk\test_prjct_rk.asm</FILE><LINE>68</LINE></DELAYL>
+  <DOWNINIT><FILE>C:\Users\Ivan\Desktop\test_prjct_rk\test_prjct_rk.asm</FILE><LINE>56</LINE></DOWNINIT>
+  <DOWNSTEP><FILE>C:\Users\Ivan\Desktop\test_prjct_rk\test_prjct_rk.asm</FILE><LINE>58</LINE></DOWNSTEP>
+  <d0><FILE>C:\Users\Ivan\Desktop\test_prjct_rk\test_prjct_rk.asm</FILE><LINE>72</LINE></d0>
+  <d1><FILE>C:\Users\Ivan\Desktop\test_prjct_rk\test_prjct_rk.asm</FILE><LINE>75</LINE></d1>
+  <d2><FILE>C:\Users\Ivan\Desktop\test_prjct_rk\test_prjct_rk.asm</FILE><LINE>78</LINE></d2>
+ </LABELS>
+</ASSEMBLER_INFO>

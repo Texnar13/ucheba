@@ -1,0 +1,6 @@
+CommandLine
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\bitgen.exe -ise C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise -intstyle ise -f main.ut main.ncd
+s
+FormatString
+bitgen [-d] [-j] [-b] [-w] [-l] [-m] [-t] [-n] [-u] [-a] [--p] [-r <bitFile>] [-intstyle ise|xflow|silent] [-ise <projectrepositoryfile>] {-bd <BRAM_data_file> [tag <tagname>]} {-g <setting_value>} <infile[.ncd]> [<outfile>] [<pcffile[.pcf]>]
+s

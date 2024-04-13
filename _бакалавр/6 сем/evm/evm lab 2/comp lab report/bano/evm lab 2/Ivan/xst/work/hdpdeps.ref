@@ -1,0 +1,7 @@
+V3 3
+FL "C:/Users/user/Desktop/evm lab 2/Ivan/laba2.vhd" 2022/03/23.15:58:34 K.31
+EN work/lab2_example 1648040550 \
+      FL "C:/Users/user/Desktop/evm lab 2/Ivan/laba2.vhd" PB ieee/std_logic_1164 1200023565 \
+      PB ieee/std_logic_arith 1200023566 PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/lab2_example/behavioral 1648040551 \
+      FL "C:/Users/user/Desktop/evm lab 2/Ivan/laba2.vhd" EN work/lab2_example 1648040550

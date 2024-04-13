@@ -1,0 +1,142 @@
+--------------------------------------------------------------------------------
+-- Copyright (c) 1995-2003 Xilinx, Inc.
+-- All Right Reserved.
+--------------------------------------------------------------------------------
+--   ____  ____ 
+--  /   /\/   / 
+-- /___/  \  /    Vendor: Xilinx 
+-- \   \   \/     Version : 10.1
+--  \   \         Application : ISE
+--  /   /         Filename : my_test_2.ant
+-- /___/   /\     Timestamp : Wed Apr 20 15:12:42 2022
+-- \   \  /  \ 
+--  \___\/\___\ 
+--
+--Command: 
+--Design Name: my_test_2
+--Device: Xilinx
+--
+
+library ieee;
+use ieee.std_logic_1164.ALL;
+use ieee.std_logic_arith.ALL;
+USE IEEE.STD_LOGIC_TEXTIO.ALL;
+USE IEEE.STD_LOGIC_UNSIGNED.ALL;
+USE STD.TEXTIO.ALL;
+
+ENTITY my_test_2 IS
+END my_test_2;
+
+ARCHITECTURE testbench_arch OF my_test_2 IS
+    FILE RESULTS: TEXT OPEN WRITE_MODE IS "C:\Users\user\Desktop\ivan\evm_lab_2\test\my_test_2.ano";
+
+    COMPONENT Seven_Segment_Driver
+        PORT (
+            CLK : In std_logic;
+            CLK_DIV : In std_logic;
+            Q : In std_logic_vector (15 DownTo 0);
+            RST : In std_logic;
+            D : Out std_logic_vector (3 DownTo 0);
+            A : Out std_logic_vector (3 DownTo 0)
+        );
+    END COMPONENT;
+
+    SIGNAL CLK : std_logic := '0';
+    SIGNAL CLK_DIV : std_logic := '0';
+    SIGNAL Q : std_logic_vector (15 DownTo 0) := "0000000000000000";
+    SIGNAL RST : std_logic := '0';
+    SIGNAL D : std_logic_vector (3 DownTo 0) := "0000";
+    SIGNAL A : std_logic_vector (3 DownTo 0) := "0000";
+
+    SHARED VARIABLE TX_ERROR : INTEGER := 0;
+    SHARED VARIABLE TX_OUT : LINE;
+
+    constant PERIOD : time := 200 ns;
+    constant DUTY_CYCLE : real := 0.5;
+    constant OFFSET : time := 100 ns;
+
+    BEGIN
+        UUT : Seven_Segment_Driver
+        PORT MAP (
+            CLK => CLK,
+            CLK_DIV => CLK_DIV,
+            Q => Q,
+            RST => RST,
+            D => D,
+            A => A
+        );
+
+        PROCESS    -- clock process for CLK
+        BEGIN
+            WAIT for OFFSET;
+            CLOCK_LOOP : LOOP
+                CLK <= '0';
+                WAIT FOR (PERIOD - (PERIOD * DUTY_CYCLE));
+                CLK <= '1';
+                WAIT FOR (PERIOD * DUTY_CYCLE);
+            END LOOP CLOCK_LOOP;
+        END PROCESS;
+
+        PROCESS    -- Annotation process for CLK
+            VARIABLE TX_TIME : INTEGER := 0;
+
+            PROCEDURE ANNOTATE_D(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", D, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, D);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+            PROCEDURE ANNOTATE_A(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", A, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, A);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+        BEGIN
+            WAIT for 1 fs;
+            ANNOTATE_D(0);
+            ANNOTATE_A(0);
+            WAIT for OFFSET;
+            TX_TIME := TX_TIME + 100;
+            ANNO_LOOP : LOOP
+                --Rising Edge
+                WAIT for 115 ns;
+                TX_TIME := TX_TIME + 115;
+                ANNOTATE_D(TX_TIME);
+                ANNOTATE_A(TX_TIME);
+                WAIT for 85 ns;
+                TX_TIME := TX_TIME + 85;
+            END LOOP ANNO_LOOP;
+        END PROCESS;
+
+        PROCESS
+            BEGIN
+                WAIT FOR 100200 ns;
+
+                STD.TEXTIO.write(TX_OUT, string'("Total[]"));
+                STD.TEXTIO.writeline(RESULTS, TX_OUT);
+                ASSERT (FALSE) REPORT
+                    "Success! Simulation for annotation completed"
+                    SEVERITY FAILURE;
+            END PROCESS;
+
+    END testbench_arch;
+

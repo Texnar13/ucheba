@@ -1,0 +1,23 @@
+G:/my_files/ucheba/evm/hw/model/main.vhd {1 {vcom -work work -2002 -explicit -stats=none G:/my_files/ucheba/evm/hw/model/main.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_unit
+-- Compiling architecture arch_control_unit of control_unit
+
+} {} {}} G:/my_files/ucheba/evm/hw/model/tester.vhd {2 {vcom -work work -2002 -explicit -stats=none G:/my_files/ucheba/evm/hw/model/tester.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity test
+-- Compiling architecture arch_test of test
+** Warning: G:/my_files/ucheba/evm/hw/model/tester.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}}

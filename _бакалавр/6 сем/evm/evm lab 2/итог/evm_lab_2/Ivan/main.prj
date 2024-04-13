@@ -1,0 +1,4 @@
+vhdl work "segment_driver.vhd"
+vhdl work "led_decoder.vhd"
+vhdl work "laba2.vhd"
+vhdl work "main.vhd"

@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+Econtrol_unit
+Z0 w1652727388
+Z1 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dG:/my_files/ucheba/evm/hw/model
+Z6 8G:/my_files/ucheba/evm/hw/model/main.vhd
+Z7 FG:/my_files/ucheba/evm/hw/model/main.vhd
+l0
+L5
+VjK`VQEeiagMGY_JKeQAnn3
+!s100 CCI`hL97RMgdB=aQ6D_kW3
+Z8 OP;C;10.4a;61
+32
+Z9 !s110 1652727497
+!i10b 1
+Z10 !s108 1652727497.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/my_files/ucheba/evm/hw/model/main.vhd|
+Z12 !s107 G:/my_files/ucheba/evm/hw/model/main.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit -O0
+Z14 tExplicit 1
+Aarch_control_unit
+R1
+R2
+R3
+R4
+DEx4 work 12 control_unit 0 22 jK`VQEeiagMGY_JKeQAnn3
+l14
+L11
+VKhooc_GU3^HZ<61NT33:^1
+!s100 gbnZXQHhZ2m]YPjaYlOGF0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Etest
+Z15 w1652727390
+Z16 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R1
+R3
+R4
+R5
+Z17 8G:/my_files/ucheba/evm/hw/model/tester.vhd
+Z18 FG:/my_files/ucheba/evm/hw/model/tester.vhd
+l0
+L6
+V`72EoE_X_35d^9HEfC6J71
+!s100 :35DImnVPoAl=0UXVX=YE2
+R8
+32
+R9
+!i10b 1
+R10
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/my_files/ucheba/evm/hw/model/tester.vhd|
+Z20 !s107 G:/my_files/ucheba/evm/hw/model/tester.vhd|
+!i113 1
+R13
+R14
+Aarch_test
+R16
+R2
+R1
+R3
+R4
+DEx4 work 4 test 0 22 `72EoE_X_35d^9HEfC6J71
+l23
+L9
+VdC]kkDRd<C0dbXdd@BY?S2
+!s100 z8:fo45I3a=NLi`W_?NTk2
+R8
+32
+R9
+!i10b 1
+R10
+R19
+R20
+!i113 1
+R13
+R14

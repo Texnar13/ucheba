@@ -1,0 +1,35 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8515</DEVICE>
+ <WORKING_DIR>G:\my_files\ucheba\avr\lab1\Lab1</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>G:\my_files\ucheba\avr\lab1\Lab1\Lab1.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8515def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>G:\my_files\ucheba\avr\lab1\Lab1\Lab1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>G:\my_files\ucheba\avr\lab1\Lab1\Lab1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>G:\my_files\ucheba\avr\lab1\Lab1\Lab1.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <INIT><FILE>G:\my_files\ucheba\avr\lab1\Lab1\Lab1.asm</FILE><LINE>15</LINE></INIT>
+  <WAITSTART><FILE>G:\my_files\ucheba\avr\lab1\Lab1\Lab1.asm</FILE><LINE>29</LINE></WAITSTART>
+  <LOOP><FILE>G:\my_files\ucheba\avr\lab1\Lab1\Lab1.asm</FILE><LINE>34</LINE></LOOP>
+  <NOINV><FILE>G:\my_files\ucheba\avr\lab1\Lab1\Lab1.asm</FILE><LINE>40</LINE></NOINV>
+  <LOOP_DELAY><FILE>G:\my_files\ucheba\avr\lab1\Lab1\Lab1.asm</FILE><LINE>43</LINE></LOOP_DELAY>
+  <d0><FILE>G:\my_files\ucheba\avr\lab1\Lab1\Lab1.asm</FILE><LINE>45</LINE></d0>
+  <d1><FILE>G:\my_files\ucheba\avr\lab1\Lab1\Lab1.asm</FILE><LINE>46</LINE></d1>
+  <d2><FILE>G:\my_files\ucheba\avr\lab1\Lab1\Lab1.asm</FILE><LINE>47</LINE></d2>
+  <CONTINUE><FILE>G:\my_files\ucheba\avr\lab1\Lab1\Lab1.asm</FILE><LINE>58</LINE></CONTINUE>
+  <SHIFT><FILE>G:\my_files\ucheba\avr\lab1\Lab1\Lab1.asm</FILE><LINE>76</LINE></SHIFT>
+  <INV_1><FILE>G:\my_files\ucheba\avr\lab1\Lab1\Lab1.asm</FILE><LINE>68</LINE></INV_1>
+  <INV_END><FILE>G:\my_files\ucheba\avr\lab1\Lab1\Lab1.asm</FILE><LINE>69</LINE></INV_END>
+ </LABELS>
+</ASSEMBLER_INFO>

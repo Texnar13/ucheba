@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\user\Desktop\evm lab 2\Ivan
+Elab2
+Z1 w1648040646
+Z2 DPx4 ieee 16 std_logic_textio 0 22 ?Il0a149GV276[?[UMDWh2
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z7 dC:\Users\user\Desktop\evm lab 2\Ivan
+Z8 8lab2.vhw
+Z9 Flab2.vhw
+l0
+L28
+VhoVOnZ@A^g;P7?h8bo7e52
+!s100 bEIFI6LgXN^OGO9^0OZoe1
+Z10 OV;C;10.1d;51
+31
+!i10b 1
+Z11 !s108 1648040657.708000
+Z12 !s90 -reportprogress|300|-explicit|-93|lab2.vhw|
+Z13 !s107 lab2.vhw|
+Z14 o-explicit -93 -O0
+Z15 tExplicit 1
+Atestbench_arch
+R2
+R3
+R4
+R5
+R6
+Z16 DEx4 work 4 lab2 0 22 hoVOnZ@A^g;P7?h8bo7e52
+l52
+L31
+V]ZD2<iWb2YgFgV:SlKWRK3
+!s100 7>HC`VSI2iklg>FH2M@E61
+R10
+31
+!i10b 1
+R11
+R12
+R13
+R14
+R15
+Elab2_example
+Z17 w1648040314
+R3
+R6
+R4
+R5
+R7
+Z18 8laba2.vhd
+Z19 Flaba2.vhd
+l0
+L6
+VU5H5:CVo8m_TC?^DzH[<90
+R10
+31
+Z20 !s108 1648040657.458000
+Z21 !s90 -reportprogress|300|-explicit|-93|laba2.vhd|
+Z22 !s107 laba2.vhd|
+R14
+R15
+!s100 XROoH7z`^GhSN<[PYSb;A0
+!i10b 1
+Abehavioral
+R3
+R6
+R4
+R5
+DEx4 work 12 lab2_example 0 22 U5H5:CVo8m_TC?^DzH[<90
+l27
+L14
+VSWI1;G=n8Gkd@B]7n9l6:0
+!s100 1?I5aS[>e79a=B?QQ9cOX0
+R10
+31
+R20
+R21
+R22
+R14
+R15
+!i10b 1

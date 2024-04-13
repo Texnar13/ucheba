@@ -1,0 +1,436 @@
+Release 10.1 - xst K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: main.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "main.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "main"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : main
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : main.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/segment_driver.vhd" in Library work.
+Architecture struct of Entity seven_segment_driver is up to date.
+Compiling vhdl file "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/led_decoder.vhd" in Library work.
+Architecture behavioral of Entity seven_segment is up to date.
+Compiling vhdl file "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.vhd" in Library work.
+Entity <lab2_example> compiled.
+Entity <lab2_example> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/main.vhd" in Library work.
+Architecture behavioral of Entity main is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Seven_Segment_Driver> in library <work> (architecture <struct>).
+
+Analyzing hierarchy for entity <seven_segment> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <lab2_example> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <main> in library <work> (Architecture <behavioral>).
+Entity <main> analyzed. Unit <main> generated.
+
+Analyzing Entity <Seven_Segment_Driver> in library <work> (Architecture <struct>).
+Entity <Seven_Segment_Driver> analyzed. Unit <Seven_Segment_Driver> generated.
+
+Analyzing Entity <seven_segment> in library <work> (Architecture <behavioral>).
+Entity <seven_segment> analyzed. Unit <seven_segment> generated.
+
+Analyzing Entity <lab2_example> in library <work> (Architecture <behavioral>).
+Entity <lab2_example> analyzed. Unit <lab2_example> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Seven_Segment_Driver>.
+    Related source file is "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/segment_driver.vhd".
+    Found 4-bit register for signal <A_int>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <Seven_Segment_Driver> synthesized.
+
+
+Synthesizing Unit <seven_segment>.
+    Related source file is "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/led_decoder.vhd".
+    Found 16x8-bit ROM for signal <led>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <seven_segment> synthesized.
+
+
+Synthesizing Unit <lab2_example>.
+    Related source file is "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.vhd".
+    Found 32-bit up counter for signal <COUNTER>.
+    Found 2-bit register for signal <S>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+Unit <lab2_example> synthesized.
+
+
+Synthesizing Unit <main>.
+    Related source file is "C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/main.vhd".
+    Found 1-bit register for signal <CNT_ff>.
+    Found 32-bit up counter for signal <COUNTER>.
+    Found 16-bit up counter for signal <MAIN_COUNTER>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <main> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Counters                                             : 3
+ 16-bit up counter                                     : 1
+ 32-bit up counter                                     : 2
+# Registers                                            : 6
+ 1-bit register                                        : 5
+ 2-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:\Xilinx\10.1\ISE.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Counters                                             : 3
+ 16-bit up counter                                     : 1
+ 32-bit up counter                                     : 2
+# Registers                                            : 7
+ Flip-Flops                                            : 7
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <main> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block main, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 87
+ Flip-Flops                                            : 87
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : main.ngr
+Top Level Output File Name         : main
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 15
+
+Cell Usage :
+# BELS                             : 292
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 77
+#      LUT2                        : 6
+#      LUT3                        : 2
+#      LUT4                        : 31
+#      MUXCY                       : 93
+#      VCC                         : 1
+#      XORCY                       : 77
+# FlipFlops/Latches                : 87
+#      FDCE                        : 1
+#      FDPE                        : 3
+#      FDR                         : 66
+#      FDRE                        : 16
+#      FDSE                        : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 14
+#      IBUF                        : 2
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                       61  out of   4656     1%  
+ Number of Slice Flip Flops:             87  out of   9312     0%  
+ Number of 4 input LUTs:                120  out of   9312     1%  
+ Number of IOs:                          15
+ Number of bonded IOBs:                  15  out of    232     6%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 87    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+RESET                              | IBUF                   | 4     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.746ns (Maximum Frequency: 174.023MHz)
+   Minimum input arrival time before clock: 4.809ns
+   Maximum output required time after clock: 7.776ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 5.746ns (frequency: 174.023MHz)
+  Total number of paths / destination ports: 2480 / 172
+-------------------------------------------------------------------------
+Delay:               5.746ns (Levels of Logic = 10)
+  Source:            COUNTER_8 (FF)
+  Destination:       COUNTER_0 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: COUNTER_8 to COUNTER_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.514   0.532  COUNTER_8 (COUNTER_8)
+     LUT4:I0->O            1   0.612   0.000  COUNTER_OVF_cmp_eq0000_wg_lut<0> (COUNTER_OVF_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  COUNTER_OVF_cmp_eq0000_wg_cy<0> (COUNTER_OVF_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.052   0.000  COUNTER_OVF_cmp_eq0000_wg_cy<1> (COUNTER_OVF_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  COUNTER_OVF_cmp_eq0000_wg_cy<2> (COUNTER_OVF_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  COUNTER_OVF_cmp_eq0000_wg_cy<3> (COUNTER_OVF_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  COUNTER_OVF_cmp_eq0000_wg_cy<4> (COUNTER_OVF_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  COUNTER_OVF_cmp_eq0000_wg_cy<5> (COUNTER_OVF_cmp_eq0000_wg_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  COUNTER_OVF_cmp_eq0000_wg_cy<6> (COUNTER_OVF_cmp_eq0000_wg_cy<6>)
+     MUXCY:CI->O           5   0.289   0.607  COUNTER_OVF_cmp_eq0000_wg_cy<7> (COUNTER_OVF)
+     LUT2:I1->O           32   0.612   1.073  COUNTER_or00001 (COUNTER_or0000)
+     FDR:R                     0.795          COUNTER_0
+    ----------------------------------------
+    Total                      5.746ns (3.535ns logic, 2.212ns route)
+                                       (61.5% logic, 38.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 84 / 84
+-------------------------------------------------------------------------
+Offset:              4.809ns (Levels of Logic = 2)
+  Source:            RESET (PAD)
+  Destination:       COUNTER_0 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: RESET to COUNTER_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            25   1.106   1.223  RESET_IBUF (RESET_IBUF)
+     LUT3:I0->O           32   0.612   1.073  lab2_example_inst/COUNTER_or00001 (lab2_example_inst/COUNTER_or0000)
+     FDR:R                     0.795          lab2_example_inst/COUNTER_0
+    ----------------------------------------
+    Total                      4.809ns (2.513ns logic, 2.296ns route)
+                                       (52.3% logic, 47.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 228 / 11
+-------------------------------------------------------------------------
+Offset:              7.776ns (Levels of Logic = 4)
+  Source:            ssd_inst/A_int_2 (FF)
+  Destination:       LED<6> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: ssd_inst/A_int_2 to LED<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDPE:C->Q             6   0.514   0.638  ssd_inst/A_int_2 (ssd_inst/A_int_2)
+     LUT4:I1->O            1   0.612   0.509  ssd_inst/D_1_or000010 (ssd_inst/D_1_or000010)
+     LUT2:I0->O            7   0.612   0.754  ssd_inst/D_1_or000022 (D_int<1>)
+     LUT4:I0->O            1   0.612   0.357  led_decode_inst/Mrom_led41 (led_decode_inst/Mrom_led4)
+     OBUF:I->O                 3.169          LED_4_OBUF (LED<4>)
+    ----------------------------------------
+    Total                      7.776ns (5.519ns logic, 2.257ns route)
+                                       (71.0% logic, 29.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.93 secs
+ 
+--> 
+
+Total memory usage is 242524 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

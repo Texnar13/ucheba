@@ -1,0 +1,396 @@
+Release 10.1 - xst K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/user/Desktop/evm lab 2/Ivan/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/user/Desktop/evm lab 2/Ivan/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: lab2_example.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "lab2_example.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "lab2_example"
+Output Format                      : NGC
+Target Device                      : xc3s200-5-ft256
+
+---- Source Options
+Top Module Name                    : lab2_example
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : lab2_example.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/user/Desktop/evm lab 2/Ivan/laba2.vhd" in Library work.
+Architecture behavioral of Entity lab2_example is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <lab2_example> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <lab2_example> in library <work> (Architecture <behavioral>).
+Entity <lab2_example> analyzed. Unit <lab2_example> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <lab2_example>.
+    Related source file is "C:/Users/user/Desktop/evm lab 2/Ivan/laba2.vhd".
+    Found 32-bit up counter for signal <COUNTER>.
+    Found 1-bit xor2 for signal <DLY_EN>.
+    Found 2-bit register for signal <S>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+Unit <lab2_example> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 1
+ 2-bit register                                        : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s200.nph' in environment C:\Xilinx\10.1\ISE.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 2
+ Flip-Flops                                            : 2
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <lab2_example> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab2_example, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 34
+ Flip-Flops                                            : 34
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : lab2_example.ngr
+Top Level Output File Name         : lab2_example
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 4
+
+Cell Usage :
+# BELS                             : 114
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 31
+#      LUT3                        : 2
+#      LUT4                        : 8
+#      MUXCY                       : 39
+#      VCC                         : 1
+#      XORCY                       : 31
+# FlipFlops/Latches                : 34
+#      FDR                         : 33
+#      FDRE                        : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 3
+#      IBUF                        : 2
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                       22  out of   1920     1%  
+ Number of Slice Flip Flops:             34  out of   3840     0%  
+ Number of 4 input LUTs:                 42  out of   3840     1%  
+ Number of IOs:                           4
+ Number of bonded IOBs:                   4  out of    173     2%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 34    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.152ns (Maximum Frequency: 194.101MHz)
+   Minimum input arrival time before clock: 4.727ns
+   Maximum output required time after clock: 6.314ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 5.152ns (frequency: 194.101MHz)
+  Total number of paths / destination ports: 627 / 67
+-------------------------------------------------------------------------
+Delay:               5.152ns (Levels of Logic = 32)
+  Source:            COUNTER_1 (FF)
+  Destination:       COUNTER_31 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: COUNTER_1 to COUNTER_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.626   1.040  COUNTER_1 (COUNTER_1)
+     LUT1:I0->O            1   0.479   0.000  Mcount_COUNTER_cy<1>_rt (Mcount_COUNTER_cy<1>_rt)
+     MUXCY:S->O            1   0.435   0.000  Mcount_COUNTER_cy<1> (Mcount_COUNTER_cy<1>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<2> (Mcount_COUNTER_cy<2>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<3> (Mcount_COUNTER_cy<3>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<4> (Mcount_COUNTER_cy<4>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<5> (Mcount_COUNTER_cy<5>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<6> (Mcount_COUNTER_cy<6>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<7> (Mcount_COUNTER_cy<7>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<8> (Mcount_COUNTER_cy<8>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<9> (Mcount_COUNTER_cy<9>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<10> (Mcount_COUNTER_cy<10>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<11> (Mcount_COUNTER_cy<11>)
+     MUXCY:CI->O           1   0.055   0.000  Mcount_COUNTER_cy<12> (Mcount_COUNTER_cy<12>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<13> (Mcount_COUNTER_cy<13>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<14> (Mcount_COUNTER_cy<14>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<15> (Mcount_COUNTER_cy<15>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<16> (Mcount_COUNTER_cy<16>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<17> (Mcount_COUNTER_cy<17>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<18> (Mcount_COUNTER_cy<18>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<19> (Mcount_COUNTER_cy<19>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<20> (Mcount_COUNTER_cy<20>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<21> (Mcount_COUNTER_cy<21>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<22> (Mcount_COUNTER_cy<22>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<23> (Mcount_COUNTER_cy<23>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<24> (Mcount_COUNTER_cy<24>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<25> (Mcount_COUNTER_cy<25>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<26> (Mcount_COUNTER_cy<26>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<27> (Mcount_COUNTER_cy<27>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<28> (Mcount_COUNTER_cy<28>)
+     MUXCY:CI->O           1   0.056   0.000  Mcount_COUNTER_cy<29> (Mcount_COUNTER_cy<29>)
+     MUXCY:CI->O           0   0.056   0.000  Mcount_COUNTER_cy<30> (Mcount_COUNTER_cy<30>)
+     XORCY:CI->O           1   0.786   0.000  Mcount_COUNTER_xor<31> (Result<31>)
+     FDR:D                     0.176          COUNTER_31
+    ----------------------------------------
+    Total                      5.152ns (4.112ns logic, 1.040ns route)
+                                       (79.8% logic, 20.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 35 / 35
+-------------------------------------------------------------------------
+Offset:              4.727ns (Levels of Logic = 2)
+  Source:            RST (PAD)
+  Destination:       COUNTER_0 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: RST to COUNTER_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   0.715   1.066  RST_IBUF (RST_IBUF)
+     LUT3:I0->O           32   0.479   1.575  COUNTER_or00001 (COUNTER_or0000)
+     FDR:R                     0.892          COUNTER_0
+    ----------------------------------------
+    Total                      4.727ns (2.086ns logic, 2.641ns route)
+                                       (44.1% logic, 55.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              6.314ns (Levels of Logic = 1)
+  Source:            S_0 (FF)
+  Destination:       CNT (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: S_0 to CNT
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              4   0.626   0.779  S_0 (S_0)
+     OBUF:I->O                 4.909          CNT_OBUF (CNT)
+    ----------------------------------------
+    Total                      6.314ns (5.535ns logic, 0.779ns route)
+                                       (87.7% logic, 12.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.98 secs
+ 
+--> 
+
+Total memory usage is 227436 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\user\Desktop\ivan\lab3
+Econtrol_unit
+Z1 w1652871732
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\Users\user\Desktop\ivan\lab3
+Z7 8main.vhd
+Z8 Fmain.vhd
+l0
+L5
+VV`ZH[cSNaZ9eGNma9^e@W2
+Z9 OV;C;10.1d;51
+31
+Z10 !s108 1652871793.406000
+Z11 !s90 -reportprogress|300|-explicit|-93|main.vhd|
+Z12 !s107 main.vhd|
+Z13 o-explicit -93 -O0
+Z14 tExplicit 1
+!s100 F[O]_4`7kPal[:N><fEd<3
+!i10b 1
+Aarch_control_unit
+R2
+R3
+R4
+R5
+DEx4 work 12 control_unit 0 22 V`ZH[cSNaZ9eGNma9^e@W2
+l14
+L11
+VF^gJhO4UhTEWDVkFh5>CO0
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 75]4Mf2DaX3cRQoOkS8T<0
+!i10b 1
+Etest
+Z15 w1652870517
+Z16 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R3
+R2
+R4
+R5
+R6
+Z17 8test.vhd
+Z18 Ftest.vhd
+l0
+L6
+Vo>><^W:[^eUB2R0gWJl6]3
+!s100 LCZo?DM@;EKmz^]0oNPLd0
+R9
+31
+!i10b 1
+Z19 !s108 1652871793.726000
+Z20 !s90 -reportprogress|300|-explicit|-93|test.vhd|
+Z21 !s107 test.vhd|
+R13
+R14
+Aarch_test
+R16
+R3
+R2
+R4
+R5
+Z22 DEx4 work 4 test 0 22 o>><^W:[^eUB2R0gWJl6]3
+l23
+L9
+Z23 VTSKi@OGaca^:H_734`h3=3
+Z24 !s100 IPO?z749TdYNl9Y[PigQl0
+R9
+31
+!i10b 1
+R19
+R20
+R21
+R13
+R14

@@ -1,0 +1,37 @@
+# Reading C:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do {test.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity control_unit
+# -- Compiling architecture arch_control_unit of control_unit
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity test
+# -- Compiling architecture arch_test of test
+# ** Warning: [4] test.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim -lib work -t 1ps test 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test(arch_test)
+# Loading work.control_unit(arch_control_unit)
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+add wave -position end  sim:/test/UUT/current_state
+restart; run 3000ns
+run -continue

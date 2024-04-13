@@ -1,0 +1,32 @@
+#include "sys/alt_stdio.h"
+#include "system.h"
+#include "altera_avalon_sysid_qsys.h"
+#include "altera_avalon_sysid_qsys_regs.h"
+
+int main()
+{
+int ch1, buffer;
+char ch, i, sim;
+ch1 = IORD_ALTERA_AVALON_SYSID_QSYS_ID(SYSID_QSYS_0_BASE);
+
+alt_putstr("Hello from System on Chip\n");
+alt_putstr("Send any character\n");
+ /* Event loop never exits. */
+ while (1) {
+	 buffer = ch1;
+	 i = 0;
+	 while(i < 8){
+	 sim = buffer % 16;
+	 if(sim < 10){
+		 alt_putchar(sim + '0');
+	 }
+	 else {
+		 alt_putchar(sim - 10 + 'A');
+	 }
+	 buffer = buffer / 16;
+	 ++i;
+	 }
+	 }
+
+ return 0;
+}

@@ -1,0 +1,63 @@
+Release 10.1 Map K.31 (nt)
+Xilinx Map Application Log File for Design 'main'
+
+Design Information
+------------------
+Command Line   : map -ise C:/Users/user/Desktop/ivan/evm_lab_2/Ivan/laba2.ise
+-intstyle ise -p xc3s500e-fg320-5 -cm area -pr off -k 4 -c 100 -o main_map.ncd
+main.ngd main.pcf 
+Target Device  : xc3s500e
+Target Package : fg320
+Target Speed   : -5
+Mapper Version : spartan3e -- $Revision: 1.46 $
+Mapped Date    : Wed Apr 20 16:01:33 2022
+
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:            87 out of   9,312    1%
+  Number of 4 input LUTs:                42 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:             65 out of   4,656    1%
+    Number of Slices containing only related logic:      65 out of      65 100%
+    Number of Slices containing unrelated logic:          0 out of      65   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:         119 out of   9,312    1%
+    Number used as logic:                42
+    Number used as a route-thru:         77
+  Number of bonded IOBs:                 15 out of     232    6%
+  Number of BUFGMUXs:                     1 out of      24    4%
+
+Peak Memory Usage:  223 MB
+Total REAL time to MAP completion:  2 secs 
+Total CPU time to MAP completion:   1 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "main_map.mrp" for details.
