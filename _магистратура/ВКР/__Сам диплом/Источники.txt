@@ -1,0 +1,81 @@
+**Ссылки:**
+1 Rempel D. The Split Keyboard: An Ergonomics Success Story. Human Factors, 2008.
+2 Microsoft Research. User-centered design and evaluation of a next generation fixed-split ergonomic keyboard. 2005.
+3 Brun D. et al. Design and Evaluation of a Versatile Text Input Device for Virtual and Immersive Workspaces. 2024.
+4 https://www.sttmedia.com/characterfrequency-russian
+5 Подключение модулей связи 2,4ГГц на базе чипов nRF24L01+ к микроконтроллеру, [Электронный ресурс]. – Режим доступа: https://aterlux.ru/article/nrf24l01p (дата обращения: 20.11.2023)
+6 Беспроводная сеть на Arduino и нескольких модулях NRF24L01, [Электронный ресурс]. – Режим доступа: https://microkontroller.ru/arduino-projects/besprovodnaya-set-na-arduino-i-neskolkih-modulyah-nrf24l01/?amp=1 (дата обращения: 20.11.2023);
+7	nRF24L01 Single Chip 2.4GHz Transceiver, [Электронный ресурс]. – Режим доступа: https://narodstream.ru/arm/download/LESSON103/nRF24L01%20datasheet.pdf (дата обращения: 20.11.2023);
+8	ЦЕЛОСТНОСТЬ ДАННЫХ, CRC, [Электронный ресурс]. – Режим доступа: https://alexgyver.ru/lessons/crc/ (дата обращения: 20.11.2023);
+9	BK2461 Datasheet, [Электронный ресурс]. – Режим доступа: https://arduinolab.pw/wp-content/uploads/2019/05/BK2461-Beken.pdf (дата обращения: 20.11.2023);
+10	Own firmware for JDY-40 (BK2461), [Электронный ресурс]. – Режим доступа: https://www.elektroda.com/rtvforum/topic3758492.html (дата обращения: 20.11.2023);
+11	Беспроводной модуль 2.4 ГГц JDY-40, [Электронный ресурс]. – Режим доступа: https://cxemka.com/40-besprovodnoi-modul-2-4-ggc-jdy-40-uartdistancionnoe-upravlenie.html (дата обращения: 20.11.2023);
+12	Модули дистанционного управления TY24D, [Электронный ресурс]. – Режим доступа: http://bestdiy.ru/moduli-distantsionnogo-upravleniya-ty24d-na-2-4-ggts.html (дата обращения: 20.11.2023);
+13	Загрузка скетчей в Arduino через Bluetooth, [Электронный ресурс]. – Режим доступа: https://habr.com/ru/articles/235727/ (дата обращения: 20.11.2023);
+14	Bluetooth-модуль bolutek для Arduino с UART-интерфейсом, [Электронный ресурс]. – Режим доступа: https://mysku.club/blog/aliexpress/40268.html (дата обращения: 20.11.2023);
+15	BK3231S Bluetooth SoC Datasheet, [Электронный ресурс]. – Режим доступа: https://robojax.com/download/datasheet/robojax_bluetooth_relay12V_BK3231_blueooth_chip.pdf (дата обращения: 20.11.2023);
+16	Arduino и Bluetooth JDY-31, [Электронный ресурс]. – Режим доступа: https://kit.alexgyver.ru/tutorials/bluetooth-jdy31/ (дата обращения: 20.11.2023);
+17 nRF24LU1+ Single Chip 2.4GHz Transceiver with USB, [Электронный ресурс]. – Режим доступа: https://www.sparkfun.com/datasheets/Wireless/Nordic/nRF24LU1P_1_0.pdf (дата обращения: 20.11.2023);
+18	CH583/CH582/CH581 Datasheet, [Электронный ресурс]. – Режим доступа: https://www.wch-ic.com/downloads/file/329.html?time=2022-04-27 (дата обращения: 20.11.2023);
+19	BLE под микроскопом. WCH forever :-), [Электронный ресурс]. – Режим доступа: https://habr.com/ru/articles/729818/ (дата обращения: 20.11.2023);
+20	RISC-V Core BLE5.3 MCU, CH583, [Электронный ресурс]. – Режим доступа: https://github.com/openwch/ch583/tree/main (дата обращения: 20.11.2023);
+21	CH32V: development platform for PlatformIO, [Электронный ресурс]. – Режим доступа: https://github.com/Community-PIO-CH32V/platform-ch32v (дата обращения: 20.11.2023);
+22 https://nicekeyboards.com/nice-nano/
+23 https://github.com/foostan/crkbd
+24 https://www.st.com/en/microcontrollers-microprocessors/stm32wb55cg.html
+25	MounRiver Studio download [Электронный ресурс]. URL: http://mounriver.com/download (Дата обращения: 30.05.2024)
+26	MounRiver Studio Quick Start [Электронный ресурс]. URL: http://mounriver.com/help (Дата обращения: 30.05.2024)
+27	WCH-Link Emulation Debugger Module [Электронный ресурс]. URL: https://www.wch-ic.com/products/WCH-Link.html (Дата обращения: 30.05.2024)
+28	Загрузка WCH-LinkUtility.ZIP [Электронный ресурс]. URL: https://www.wch.cn/downloads/WCH-LinkUtility_ZIP.html (Дата обращения: 30.05.2024)
+29	«VSCode+CMake+openocd для программирования и отладки ch32» [Электронный ресурс]. URL: https://habr.com/ru/articles/786872/ (Дата обращения: 30.05.2024)
+30	riscv-none-elf-gcc-xpack [Электронный ресурс]. URL: https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack (Дата обращения: 30.05.2024)
+31	xPack GNU RISC-V Embedded GCC v14.2.0-2 [Электронный ресурс]. URL: https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases (Дата обращения: 30.05.2024)
+32	CMake Download [Электронный ресурс]. URL: https://cmake.org/download/ (Дата обращения: 30.05.2024)
+33	ninja releases [Электронный ресурс]. URL: https://github.com/ninja-build/ninja/releases (Дата обращения: 30.05.2024)
+34	Литий-полимерный аккумулятор [Электронный ресурс]. URL: https://ru.wikipedia.org/wiki/Литий-полимерный_аккумулятор (Дата обращения: 12.07.2024);
+35	Charging - research and methodology [Электронный ресурс]. URL: https://accubattery.zendesk.com/hc/en-us/articles/210224725-Charging-research-and-methodology (Дата обращения: 12.07.2024);
+36	Summary Table of Lithium-based Batteries [Электронный ресурс]. URL: https://batteryuniversity.com/article/bu-216-summary-table-of-lithium-based-batteries (Дата обращения: 12.07.2024);
+37	Особенности заряда и разряда литиевых аккумуляторных батарей и современные технические средства управления этими процессами [Электронный ресурс]. URL: https://cyberleninka.ru/article/n/osobennosti-zaryada-i-razryada-litievyh-akkumulyatornyh-batarey-i-sovremennye-tehnicheskie-sredstva-upravleniya-etimi-protsessami (Дата обращения: 12.07.2024);
+38 Discharge Characteristics of Li-ion [Электронный ресурс]. URL: https://batteryuniversity.com/article/bu-501a-discharge-characteristics-of-li-ion (Дата обращения: 12.07.2024);
+39	TP4056 Datasheet [Электронный ресурс]. URL: https://www.alldatasheet.com/datasheet-pdf/pdf/1133270/TPOWER/TP4056.html (Дата обращения: 12.07.2024);
+40	Miniature Single-Cell, Fully Integrated Li-Ion, Li-Polymer Charge Management Controllers [Электронный ресурс]. URL: https://static.chipdip.ru/lib/283/DOC012283193.pdf (Дата обращения: 12.07.2024);
+41	SINGLE-CHIP CHARGE AND SYSTEM POWER-PATH MANAGEMENT IC [Электронный ресурс]. URL: https://www.alldatasheet.com/datasheet-pdf/view/111717/TI/BQ24032ARHLR.html (Дата обращения: 12.07.2024);
+42	SOT23 Dual-Input USB/AC Adapter 1-Cell Li+ Battery Chargers [Электронный ресурс]. URL: https://static.chipdip.ru/lib/760/DOC000760845.pdf (Дата обращения: 12.07.2024);
+43	800mA Standalone linear Li-Ion Battery charger with thermal regulation [Электронный ресурс]. URL: https://www.st.com/resource/en/datasheet/stc4054.pdf (Дата обращения: 12.07.2024);
+44	One  Cell  Lithium-ion/Polymer  Battery  Protection  IC [Электронный ресурс]. URL: https://www.alldatasheetru.com/html-pdf/256691/ETC2/DW01/291/3/DW01.html (Дата обращения: 12.07.2024);
+45	How does the DW01A prevent overcharging and discharging? [Электронный ресурс]. URL: https://electronics.stackexchange.com/questions/446526/how-does-the-dw01a-prevent-overcharging-and-discharging (Дата обращения: 12.07.2024);
+46	One Cell Lithium-ion/Polymer Battery Protection [Электронный ресурс]. URL: https://www.alldatasheet.com/datasheet-pdf/view/1132811/FORTUNE/FS312F-G.html (Дата обращения: 12.07.2024);
+47	BQ297xx Cost-Effective Voltage and Current Protection Integrated Circuit for Single-Cell Li-Ion and Li-Polymer Batteries [Электронный ресурс]. URL: https://www.alldatasheet.com/html-pdf/1946810/TI1/BQ2970/197/3/BQ2970.html (Дата обращения: 12.07.2024);
+48	CH583/CH582/CH581 Datasheet [Электронный ресурс]. URL: https://static.chipdip.ru/lib/164/DOC045164030.pdf (Дата обращения: 12.07.2024);
+49	1N4001(M1) - 1N4007(M7) [Электронный ресурс]. URL: https://static.chipdip.ru/lib/981/DOC020981108.pdf (Дата обращения: 12.07.2024);
+50	TPS638022-A, High-Efficient, Low IQ Buck-Boost Converter with Small Solution Size [Электронный ресурс]. URL: https://www.alldatasheet.com/datasheet-pdf/pdf/1114865/TI1/TPS63802.html (Дата обращения: 12.07.2024);
+51 Low-dropout regulator [Электронный ресурс]. URL: https://en.wikipedia.org/wiki/Low-dropout_regulator (Дата обращения: 24.12.2024);
+52 Ultra-Low Noise, Ultra-Fast CMOS LDO Regulator [Электронный ресурс]. URL: https://static.chipdip.ru/lib/728/DOC012728815.pdf (Дата обращения: 24.12.2024);
+53	CH583 datasheet [Электронный ресурс]. URL: https://wch-ic.com/downloads/CH583DS1_PDF.html (Дата обращения: 19.02.2025);
+54	Evaluation board CH583SCH [Электронный ресурс]. URL: https://github.com/SoCXin/CH583/blob/master/src/EVT/PUB/CH583SCH.PDF (Дата обращения: 19.02.2025);
+55	Как начать использовать USB Type-C в своих разработках [Электронный ресурс]. URL: https://habr.com/ru/companies/ntc-vulkan/articles/496882/ (Дата обращения: 19.02.2025);
+56	Q-2504 Slide switch [Электронный ресурс]. URL: https://static.chipdip.ru/lib/600/DOC015600425.pdf (Дата обращения: 19.02.2025).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
